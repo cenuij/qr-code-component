@@ -4,7 +4,6 @@
   font-family: "Outfit", sans-serif;
   font-size: 15px;
 
-  /* how to name colours in your colour scheme? */
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
