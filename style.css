@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit");
+
+:root {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+
+  /* how to name colours in your colour scheme? */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  /* make body full screen */
+  height: 100vh;
+  margin: 0; /* a margin will add scroll bars? */
+
+  /* center body content in middle of screen */
+  display: grid;
+  place-items: center;
+
+  background-color: var(--light-gray);
+}
+
+section {
+  /* this will make the image determine the width? */
+  width: min-content;
+
+  background-color: var(--white);
+  box-shadow: 0 0 10em var(--grayish-blue);
+  border-radius: 1em;
+
+  padding: 1em;
+}
+
+img {
+  width: 400px;
+  border-radius: 1em;
+}
+
+h1,
+p {
+  text-align: center;
+
+  /* add some extra space for text content */
+  margin: 1em;
+}
+
+h1 {
+  color: var(--dark-blue);
+}
+
+p {
+  color: var(--grayish-blue);
+}
